@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chip/Algoritmos y Estructuras de Datos/solver-NChipanaUTEC/Node.h
+
+/home/chip/Algoritmos y Estructuras de Datos/solver-NChipanaUTEC/Tree.h
+cstring
+-
+Node.h
+/home/chip/Algoritmos y Estructuras de Datos/solver-NChipanaUTEC/Node.h
+
+/home/chip/Algoritmos y Estructuras de Datos/solver-NChipanaUTEC/main.cpp
+iostream
+-
+Tree.h
+/home/chip/Algoritmos y Estructuras de Datos/solver-NChipanaUTEC/Tree.h
+
