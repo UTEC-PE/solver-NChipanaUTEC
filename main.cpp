@@ -1,9 +1,9 @@
 #include <iostream>
+#include "Tree.h"
 
 using namespace std;
 
 void menu() {
-      system("cls");
       cout<<"==========================================================="<<endl;
       cout<<"\t\tPractica Operaciones"<<endl;
       cout<<"==========================================================="<<endl;
@@ -11,7 +11,11 @@ void menu() {
       //char* str="7/4*((a+b)*a)+3";
       //char* str="7/4*((a+-+--b)*a)+3";
       //char* str="2+(3)";
-      char* str="7/4*((a+b)^4*a)+3";
+      //char* str="7/4*((a+b)^4*a)+3";
+    char* str = "2+4";
+
+    Tree arbol(str);
+    arbol.build();
 }
 
 int main(int argc, char const *argv[]) {
@@ -21,4 +25,3 @@ int main(int argc, char const *argv[]) {
     cin.get(); 
     return EXIT_SUCCESS;
 }
-

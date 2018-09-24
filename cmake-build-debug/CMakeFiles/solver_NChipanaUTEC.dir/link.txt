@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/solver_NChipanaUTEC.dir/main.cpp.o  -o solver_NChipanaUTEC 
