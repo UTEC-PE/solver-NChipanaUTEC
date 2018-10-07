@@ -18,6 +18,7 @@ void menu() {
     arbol.build();
 }
 
+// No está operando, solo intenta construir el árbol con el +
 int main(int argc, char const *argv[]) {
     menu();
 

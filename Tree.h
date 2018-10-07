@@ -46,7 +46,7 @@ public:
             left = ecuacion;
         }
         for(int j = pos+1; j < strlen(ecuacion);j++){
-            right = ecuacion+j;
+            right = ecuacion+j; // Qué estás retornando? Falta return
         };
     }
 
@@ -56,7 +56,7 @@ public:
             start = new Node;
             start -> data = equation;
             start -> izq = new Node{left,nullptr, nullptr};
-            start -> der = new Node{right, nullptr, nullptr};
+            start -> der = new Node{right, nullptr, nullptr};  //Warning porque falta retŕun
         }
         else{
             nodo -> izq = new Node {left, nullptr, nullptr};
